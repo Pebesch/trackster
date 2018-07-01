@@ -1,0 +1,73 @@
+/*
+  Custom styles for Trackster App
+*/
+html{
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: rgp(74,74,74);
+}
+
+h1{
+  font-family: 'Righteous', serif;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 171);
+}
+
+.header{
+  background-color: rgb(35,2,63);
+  display: flex;
+  align-items: center;
+  height: 10rem;
+}
+
+.btn-search{
+  background-color: rgb(255, 102, 204);
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+#search-input, #search-btn{
+  padding: 1rem;
+}
+
+#search-input::placeholder{
+  color: rgb(191,191,191);
+}
+
+.table-head{
+  background-color: rgb(104, 0, 255);
+  display: flex;
+}
+
+.table-head h2{
+  font-size: 1rem;
+  color: rgb(255,255,255);
+  display: inline-flex;
+}
+
+.entry{
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px solid rgb(204,204,204);
+}
+
+.cover-container{
+  height: 1rem;
+}
+
+.entry img{
+  height: 100%;
+  width: auto;
+  display: inline-flex;
+}
