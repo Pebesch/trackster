@@ -63,7 +63,8 @@ p{
 }
 
 .cover-container{
-  height: 1rem;
+  height: 100%;
+  padding: .25rem;
 }
 
 .entry img{
